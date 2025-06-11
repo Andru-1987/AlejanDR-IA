@@ -1,0 +1,10 @@
+services:
+
+  node-application:
+    build: .
+    container_name: node-app
+    
+    ports:
+      - "8080:5001"
+    
+    restart: always
