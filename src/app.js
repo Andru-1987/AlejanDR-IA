@@ -10,7 +10,7 @@ app.use(
 
 app.use(express.json());
 
-app.use("/", (req,res)=>{res.json({msg:"This is my render app"})})
+// app.use("/", (req,res)=>{res.json({msg:"This is my render app"})})
 app.use("/api/user", UserRouter);
 
 export default app;
